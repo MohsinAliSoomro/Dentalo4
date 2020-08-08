@@ -1,0 +1,43 @@
+.videos{
+    width: 100%;
+    float:right;
+    background-color: blue;
+}
+.footer-container{
+    margin-top: 10%;
+}
+.social-links{
+    list-style-type: none;
+}
+.social-links > li {
+    display: inline;
+    padding: 10px;
+}
+.vertical-line{
+    margin-top: 10px;
+    height: 110px;
+    border-left: 1px solid grey;
+}
+@media screen and (max-width:700px){
+    .vertical-line{
+        height: 0px;
+        margin-top: 0px;
+        border-left: 0px;
+    }
+}
+
+.newslatter-inp{
+    width: 70%;
+    border-radius: 1px solid grey;
+    padding: 3px;
+
+}
+.btn-submit{
+    background-color: orangered;
+    color: white;
+    padding: 4px;
+    margin-left: 5px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    
+}
